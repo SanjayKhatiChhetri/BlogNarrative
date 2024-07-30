@@ -1,0 +1,473 @@
+fontFace {
+  font-family: "sourceSerifPro";
+  src: url("./sourceSerifPro.woff") format("woff");
+}
+
+fontFace {
+  font-family: "sohneMedium";
+  src: url("./sohne500.woff") format("woff");
+}
+
+fontFace {
+  font-family: "sohneBold";
+  src: url("./sohne700.woff") format("woff");
+}
+
+fontFace {
+  font-family: "shoneRegular";
+  src: url("./sohne400.woff") format("woff");
+}
+
+fontFace {
+  font-family: "styreneB-regular";
+  font-display: swap;
+  src: url("./styreneB400.otf") format("opentype");
+}
+
+.pt-serif-regular {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-serif-bold {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-serif-regular-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-serif-bold-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.dmSans-regular {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.searchIC {
+  position: absolute;
+  top: 2px;
+  opacity: 0.6;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.form-control {
+  border-radius: 10em !important;
+}
+
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: #000000;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.btn-dark {
+  background-color: #242424 !important;
+  color: #fff !important;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 10em;
+  cursor: pointer;
+  opacity: none;
+}
+
+.btn-dark:hover {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.me-2 {
+  padding-left: 3em;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.post-author {
+  display: flex;
+  align-items: baseline;
+}
+
+.post-status {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.auth-button {
+  background-color: #1a8917 !important; /* Set default color */
+  border: 1px solid #1a8917; /* Optional: Adjust the border color */
+}
+
+.auth-button:hover {
+  background-color: #156d12 !important; /* Change color on hover */
+  border: 1px solid #156d12; /* Optional: Adjust the border color on hover */
+}
+
+.md-editor {
+  font-family: "styreneB-regular" !important;
+}
+
+.EasyMDEContainer .CodeMirror,
+.EasyMDEContainer .editor-toolbar,
+.EasyMDEContainer .editor-statusbar,
+.EasyMDEContainer .CodeMirror-scroll,
+.EasyMDEContainer .CodeMirror pre.CodeMirror-line,
+.EasyMDEContainer .CodeMirror pre.CodeMirror-line-like,
+.EasyMDEContainer .cm-s-easymde .CodeMirror-line * {
+  font-family: "styreneB-regular", sans-serif !important;
+  font-size: 18px !important;
+  line-height: 1.58 !important;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #292929;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(230, 230, 230, 1);
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand img {
+  max-height: 30px;
+}
+
+.post-card {
+  border-bottom: 1px solid rgba(230, 230, 230, 1);
+  padding: 2rem 0;
+}
+
+.featured-post {
+  padding-top: 0;
+}
+
+.post-meta {
+  font-size: 0.8rem;
+  color: #6b6b6b;
+  margin-bottom: 0.5rem;
+}
+
+.post-title {
+  margin-bottom: 0.5rem;
+  color: #242424;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  max-height: 90px;
+  letter-spacing: -0.016em;
+  -webkit-box-orient: vertical;
+}
+
+.post-excerpt {
+  color: #6b6b6b;
+  -webkit-line-clamp: 2;
+  max-height: 40px;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.post-excerpt > h .post-footer {
+  font-size: 0.8rem;
+  color: #757575;
+}
+
+.post-footer {
+  font-size: 13px;
+  color: #6b6b6b;
+  line-height: 20px;
+  font-weight: 400;
+  word-break: break-word;
+}
+
+.post-image {
+  width: 160px;
+  aspect-ratio: auto 160 / 107;
+  height: 107px;
+  object-fit: cover;
+  background-color: rgb(249, 249, 249);
+  border-radius: 2px;
+  box-sizing: inherit;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.btn-outline-primary {
+  color: #1a8917;
+  border-color: #1a8917;
+}
+
+.btn-outline-primary:hover {
+  background-color: #1a8917;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .post-card .row {
+    flex-direction: column-reverse;
+  }
+
+  .post-image {
+    height: 350px !important;
+  }
+}
+
+.editor-Title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #242424;
+}
+
+.single-post {
+  max-width: 680px;
+  margin: 0 auto;
+  font-family: "Source Serif Pro", serif;
+  color: #292929;
+}
+
+.single-post h1 {
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 16px;
+}
+
+.single-post .post-meta {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #6b6b6b;
+  margin-bottom: 32px;
+}
+
+.single-post > img {
+  height: 350px;
+}
+
+button {
+  font-family: sans-serif;
+}
+.single-post .post-content {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.single-post .post-image {
+  margin-bottom: 32px;
+}
+
+.single-post {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "sourceSerifPro", serif;
+}
+
+.single-post h1 {
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.single-post .post-meta {
+  font-size: 14px;
+  color: #6b6b6b;
+  margin-bottom: 24px;
+}
+
+.single-post .post-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  margin-bottom: 24px;
+}
+
+.single-post .post-content {
+  font-size: 20px;
+  line-height: 32px;
+  color: #292929;
+}
+
+.create-post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.CodeMirror,
+.CodeMirror-scroll {
+  min-height: 200px;
+}
+
+/* comment-blogNarrative-css-implementation  */
+.comment-section {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.comment {
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 1rem;
+}
+
+.comment-header {
+  font-size: 0.9rem;
+}
+
+.comment-header .author {
+  font-weight: bold;
+}
+
+.comment-content {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.comment-actions button {
+  font-size: 0.8rem;
+}
+
+#commentForm textarea {
+  border: none;
+  border-bottom: 1px solid #e6e6e6;
+  border-radius: 0;
+  padding: 0.5rem 0;
+  resize: none;
+}
+
+#commentForm textarea:focus {
+  box-shadow: none;
+  border-color: #000;
+}
+
+#commentForm button[type="submit"] {
+  background-color: #1a8917;
+  border: none;
+}
+
+#commentForm button[type="submit"]:hover {
+  background-color: #156d12;
+}
+
+.comments-modal {
+  position: fixed;
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+  background-color: ghostwhite;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  transition: right 0.3s ease-in-out;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.comments-modal.active {
+  right: 0;
+}
+
+.modal-content {
+  padding: 20px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#modalCommentList {
+  max-height: 60vh;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+#modalCommentForm {
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.close-modal:focus,
+#modalCommentForm button:focus {
+  outline: 2px solid #1a8917;
+}
+
+@media (max-width: 480px) {
+  .comments-modal {
+    max-width: 100%;
+  }
+}
+
+#modalCommentList {
+  scroll-behavior: smooth;
+}
+
+.comment {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.comment-content {
+  margin-top: 5px;
+}
+
+/* client/css/style.css */
+.like-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.like-button i {
+  transition: color 0.3s ease;
+}
+
+.like-button[aria-pressed="true"] i {
+  color: #dc3545;
+}
+
+.search-results .card {
+  height: 100%;
+}
+
+.search-results .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-results .card-text {
+  flex-grow: 1;
+}

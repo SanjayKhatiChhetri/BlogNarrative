@@ -1,0 +1,24 @@
+#ignore doc folder
+/doc
+/*doc
+
+
+#remove all the txt file
+/*.txt
+
+#remove all the log file
+/*.log
+
+
+#ignore node modules
+/*node_modules
+
+#ignore .env
+/*.env
+
+#ignore .DS_Store
+/*.DS_Store
+
+#ignore .deepsource.toml
+/*.deepsource.toml
+
