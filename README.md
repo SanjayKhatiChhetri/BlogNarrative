@@ -1,3 +1,71 @@
+# Getting Started
+
+### Prerequisites
+
+Node.js (version 12 or higher)
+PostgreSQL (version 10 or higher)
+
+### Installation
+
+Clone the repository: 
+```
+git clone https://github.com/yourusername/blognarrative.git
+```
+
+Navigate to the project directory: 
+```
+cd blognarrative
+```
+
+Install the dependencies: 
+```
+npm install
+```
+
+Set up the database:
+
+Create a new PostgreSQL database for the application
+Update the database connection details in the `config/db.js` file
+
+
+Start the application:
+```
+npm start
+```
+
+Access the application in your web browser at `http://localhost:3000`
+
+### Project Structure
+
+- `server/`: Contains the server-side code
+
+  - `config/`: Configuration files
+  - `controllers/`: Controller functions for handling requests
+  - `middleware/`: Middleware functions
+  - `models/`: Data models and database queries
+  - `routes/`: API routes
+  - `utils/`: Utility functions
+
+
+- `public/`: Contains the client-side code and assets
+
+  - `css/:` CSS stylesheets
+  - `js/`: JavaScript files
+  - `images/`: Image files
+  - `index.html`: The main HTML file for the application
+
+- `package.json`: Project dependencies and scripts
+- `README.md`: Project documentation
+
+### Contributing
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+
+### License
+This project is licensed under the MIT License. See the LICENSE file for more information.
+Contact
+If you have any questions or inquiries, please contact Sanjay Khati Chhetri, social can be found at `https://github.com/SanjayKhatiChhetri` .
+
+
 # SUMMER PROJECT SPRING 2024
 ---------------------------
 
